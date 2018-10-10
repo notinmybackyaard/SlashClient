@@ -1,0 +1,19 @@
+18
+Warrior_Turn	4	Warrior_Turn_0	Warrior_Turn_1	Warrior_Turn_2	Warrior_Turn_3
+Drop	5	light0	light1	light2	light3	light4
+Hit5	1	Hit05
+orbAttack		4	orb_01	orb_02	orb_03	orb_04
+Heal_00	1	heal00	
+Slash_00	2	slash00	slash01
+Regen_00	1	regen00	
+LightBall_00	1	lightball00
+Thunder_00	1	mage_thunder_004	
+Cast_00	1	cast_00	
+Trans_00	1	trans_00
+LevelUP	1	levelUP	
+UtimateAttack_2	6	ultimateatt2_00	ultimateatt2_01	ultimateatt2_02	ultimateatt2_03	ultimateatt2_04	ultimateatt2_05	
+Ax_00	4	ax00	ax01	ax02	ax03
+Ultimate1	1	ultimate1_0		
+Roll_00	2	roll_00	roll_01
+Teleport_00	1	teleport_00	
+UltimateMode_00	1	ultimatemode_00

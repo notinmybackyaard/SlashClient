@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{2432caa9-86b0-4c77-902b-9d733bdad9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Header">
+      <UniqueIdentifier>{0333f282-1715-467c-ba19-d0b359d050a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DirectHelper">
+      <UniqueIdentifier>{fdb0c758-a44d-455b-8092-72b1ea67018e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. GameTimer">
+      <UniqueIdentifier>{e6a50856-a91c-4450-b29b-ed2b142f1671}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. App">
+      <UniqueIdentifier>{0e55137c-8c25-4179-8edd-486124aba810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene">
+      <UniqueIdentifier>{4a88210b-8201-409c-9516-9d06cf4c1a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject">
+      <UniqueIdentifier>{7ab345d5-6d08-402c-a749-7b5ddb0267e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh">
+      <UniqueIdentifier>{76a84540-07f4-440f-859c-998876f01c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DirectHelper\00. FrameResource">
+      <UniqueIdentifier>{5ebb86a5-3752-4868-9d09-6ea79a26f144}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DirectHelper\01. DDSTextureLoader">
+      <UniqueIdentifier>{043e596b-98e9-4847-ac46-a71e7fb9e7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DirectHelper\02. GeometryGenerator">
+      <UniqueIdentifier>{a2cf27ee-6b98-46fc-a7a4-5f0a83af2bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DirectHelper\02. MathHelper">
+      <UniqueIdentifier>{af70f472-4f92-4bb2-b73b-c4e28441a106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DirectHelper\04. d3dUtil">
+      <UniqueIdentifier>{74352b70-43e8-4ee9-ab62-f2dcc1525ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. AnimObject">
+      <UniqueIdentifier>{8e400ced-35f9-4a12-891d-b2fac526e1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. StaticObject">
+      <UniqueIdentifier>{be34a58e-69f4-4483-b53c-109d7665fc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh\00. DynamicMesh">
+      <UniqueIdentifier>{4586375e-61e5-405b-bc11-18bc268a150d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh\01. StaticMesh">
+      <UniqueIdentifier>{a61a4be6-ff8f-48f3-90b7-c9e4373f82e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. App\00. MainApp">
+      <UniqueIdentifier>{fd3cce1d-2bd6-4887-b8a9-c70584591786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. StaticObject\00. InstancingObject">
+      <UniqueIdentifier>{8fa3edd8-5bf8-41ed-bad4-7701fe3aa17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh\02. GeometryMesh">
+      <UniqueIdentifier>{65ac9ca3-b6e3-42f9-a42a-10236b090106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\04. SkyBox">
+      <UniqueIdentifier>{604da928-4874-4429-a4d1-7d24805b3dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\03.Terrain">
+      <UniqueIdentifier>{f31620ca-ff9f-4fd4-946b-3113a144774c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{dd35b52b-4c28-4eb4-9a33-3cc39acf4ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\99. Layer">
+      <UniqueIdentifier>{6ab58482-a619-4bfe-ba37-57ba3f50d20d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\99. BoundingBox">
+      <UniqueIdentifier>{70d1514c-eb60-4c74-824b-b8e398c9ca04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\00. TestScene">
+      <UniqueIdentifier>{92d47f70-c890-4bfa-a7a6-b5c4fa2ff018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. GameTimer\00. Manager">
+      <UniqueIdentifier>{3c586816-deda-4e0c-8578-0e8d4920d59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. GameTimer\01. Timer">
+      <UniqueIdentifier>{c802aff6-d022-41bb-a4ab-569f658ff95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Frame">
+      <UniqueIdentifier>{d33334e3-6b16-40c6-8cab-314d63886caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Manager">
+      <UniqueIdentifier>{0ad101e6-4e1b-48b3-9529-e164d6ce3861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Manager\00. Management">
+      <UniqueIdentifier>{2fab24e1-290a-4e06-af95-26d19c4d71db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Manager\01. InputDevice">
+      <UniqueIdentifier>{8f8f7cb3-e7eb-41a7-b6c9-975794fc3b6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Manager\02. Component_Manager">
+      <UniqueIdentifier>{452e8a37-c66e-42f3-9ba1-51c30f84a3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Shaders">
+      <UniqueIdentifier>{e73a5051-5889-41b0-a14a-923f30aaaf3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Component">
+      <UniqueIdentifier>{31b087ac-6752-4bec-bada-d07be0005106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Component\00. Resource">
+      <UniqueIdentifier>{65d7e262-4776-47c6-a4a9-6ca859a965d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Component\01. Renderer">
+      <UniqueIdentifier>{a78fb917-88a7-4293-8bf8-642d22952a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Component\02. Transform">
+      <UniqueIdentifier>{f14e79b3-9534-4343-a9bd-2826e2379697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Component\03.Collision_Manager">
+      <UniqueIdentifier>{b1fdd553-a3ce-47d5-95eb-62be6a69815d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Frame\00. Manager">
+      <UniqueIdentifier>{8b411420-5475-4af1-b366-052fe534e14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Frame\01. Frame">
+      <UniqueIdentifier>{58721551-4c99-48ac-8897-9e229678a6f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\05. Spider">
+      <UniqueIdentifier>{272a802b-a283-4f26-b885-29f563b068f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh\03. DynamicMeshSingle">
+      <UniqueIdentifier>{c08eed5f-56f0-49ef-b4eb-f394dbf6d834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\06. Dragon">
+      <UniqueIdentifier>{12f72f4b-8407-44d5-8f23-5ff39cbdf5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. AnimObject\00. Player">
+      <UniqueIdentifier>{8546b538-d59b-48ed-9a3a-c087c17aa4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. StaticObject\01. MapObject">
+      <UniqueIdentifier>{4c0a9d27-91a0-4be4-8610-c650aa9b57b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI">
+      <UniqueIdentifier>{dab1bd9d-672b-42bd-8f20-b47b34060fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh\04. UIMesh">
+      <UniqueIdentifier>{58d82cd2-adbd-406a-bbcc-4d746ff1af19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Manager\03. Texture_Manager">
+      <UniqueIdentifier>{77b87e55-4de9-4fa8-9dbc-3f5ff92369bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\01. HPBar">
+      <UniqueIdentifier>{54ee374b-bd00-4878-ba96-06ecc527eede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\02. StaticUI">
+      <UniqueIdentifier>{492a1ba9-1702-4255-8c1e-4dc12cb34648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. AnimObject\01. Skeleton">
+      <UniqueIdentifier>{a499b562-412a-4c8c-bf87-a08141577fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Component\03. Sound">
+      <UniqueIdentifier>{d981a55f-e0e0-45bd-a4ea-c6e08308c2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Mesh\05. BillboardMesh">
+      <UniqueIdentifier>{00786757-6296-433b-b8f6-6652b07791ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. Skill">
+      <UniqueIdentifier>{dd92fb56-72aa-4706-b3cc-104a9242b096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\08. Skill\00. Skill_Billboard">
+      <UniqueIdentifier>{c8a8db26-5d2f-4501-bff1-a994a10eb0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Manager\04. Effect_Manager">
+      <UniqueIdentifier>{e18249bf-41eb-4fb5-bb68-15e146f73ea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\09. Effect">
+      <UniqueIdentifier>{75946594-71ca-4ceb-b073-06c3524a06c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\09. Effect\00. SkillEffect">
+      <UniqueIdentifier>{d6f088e1-54eb-47f5-8763-482968f354dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\01. EffectScene">
+      <UniqueIdentifier>{ec084c89-2a2e-4748-b5c4-7dbc794edf23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\02. SelectScene">
+      <UniqueIdentifier>{6462773b-450e-4cdf-a42d-6423b51de9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\03. ChangeUI">
+      <UniqueIdentifier>{4ab5c8d3-cde2-4c05-bea1-031c1e1047af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\04. NumUI">
+      <UniqueIdentifier>{04f679d0-5f7d-4e66-8055-0fa972a4e078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\10. NagaGuard">
+      <UniqueIdentifier>{87827470-6ead-46c5-bfa8-20ea56d06050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\11. RockWarrior">
+      <UniqueIdentifier>{d590d3e2-fe82-4dee-98f8-0e60ba05f422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\12. TreeGuard">
+      <UniqueIdentifier>{15805a59-0882-41bc-837c-7cf2ba7a50c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\13. Mushroom">
+      <UniqueIdentifier>{f271224a-92c3-4762-a04f-517fefb6f354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\01. StaticObject\02. Camera">
+      <UniqueIdentifier>{4d802681-e5ae-4657-87b7-2bdb58a7e3a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\07. UI\05. BarUI">
+      <UniqueIdentifier>{ea1d3d1a-f115-4e10-ab85-62114953964a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="90. MiniDump">
+      <UniqueIdentifier>{a3cc8302-7b7f-4ccc-bb18-f84d1d9106d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="91. Network">
+      <UniqueIdentifier>{81a480a6-f5a1-4790-8b12-5d6a16da6014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. GameObject\00. AnimObject\02. SeletePlayer">
+      <UniqueIdentifier>{b1bd8e00-a7ea-4f82-ad79-3ff23990cf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\03. StartScene">
+      <UniqueIdentifier>{30911141-3de3-421b-ad35-50b0d2919cbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Scene\04. EndingScene">
+      <UniqueIdentifier>{fbff9569-d6d4-487f-8d5e-5f82ec471578}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\d3dApp.cpp">
+      <Filter>00. App</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameResource.cpp">
+      <Filter>97. DirectHelper\00. FrameResource</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\DDSTextureLoader.cpp">
+      <Filter>97. DirectHelper\01. DDSTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GeometryGenerator.cpp">
+      <Filter>97. DirectHelper\02. GeometryGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\MathHelper.cpp">
+      <Filter>97. DirectHelper\02. MathHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\d3dUtil.cpp">
+      <Filter>97. DirectHelper\04. d3dUtil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Camera.cpp">
+      <Filter>02. GameObject\01. StaticObject\02. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrel.cpp">
+      <Filter>02. GameObject\01. StaticObject</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMesh.cpp">
+      <Filter>03. Mesh\00. DynamicMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>02. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>94. Manager\01. InputDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>03. Mesh\01. StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>03. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="InstancingAndCullingApp.cpp">
+      <Filter>00. App\00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="InstancingObject.cpp">
+      <Filter>02. GameObject\01. StaticObject\00. InstancingObject</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>02. GameObject\04. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryMesh.cpp">
+      <Filter>03. Mesh\02. GeometryMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>02. GameObject\03.Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Management.cpp">
+      <Filter>94. Manager\00. Management</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>92. Component\01. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>92. Component\02. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>92. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>01. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>01. Scene\99. Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Component_Manager.cpp">
+      <Filter>94. Manager\02. Component_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>02. GameObject\99. BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GameTimer.cpp">
+      <Filter>96. GameTimer\01. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer_Manager.cpp">
+      <Filter>96. GameTimer\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>95. Frame\01. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Manager.cpp">
+      <Filter>95. Frame\00. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Spider.cpp">
+      <Filter>02. GameObject\05. Spider</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMeshSingle.cpp">
+      <Filter>03. Mesh\03. DynamicMeshSingle</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>02. GameObject\06. Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02. GameObject\00. AnimObject\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>91. Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>02. GameObject\01. StaticObject\01. MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>01. Scene\00. TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>02. GameObject\07. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMesh.cpp">
+      <Filter>03. Mesh\04. UIMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>94. Manager\03. Texture_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>02. GameObject\07. UI\01. HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticUI.cpp">
+      <Filter>02. GameObject\07. UI\02. StaticUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>02. GameObject\00. AnimObject\01. Skeleton</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>92. Component\03. Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardMesh.cpp">
+      <Filter>03. Mesh\05. BillboardMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectScene.cpp">
+      <Filter>01. Scene\01. EffectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>02. GameObject\08. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill_Billboard.cpp">
+      <Filter>02. GameObject\08. Skill\00. Skill_Billboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect_Manager.cpp">
+      <Filter>94. Manager\04. Effect_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>02. GameObject\09. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEffect.cpp">
+      <Filter>02. GameObject\09. Effect\00. SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryReader.cpp" />
+    <ClCompile Include="DescriptorHeap.cpp" />
+    <ClCompile Include="DirectXHelpers.cpp" />
+    <ClCompile Include="GraphicsMemory.cpp" />
+    <ClCompile Include="LinearAllocator.cpp" />
+    <ClCompile Include="ResourceUploadBatch.cpp" />
+    <ClCompile Include="SpriteBatch.cpp" />
+    <ClCompile Include="SpriteFont.cpp" />
+    <ClCompile Include="VertexTypes.cpp" />
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>01. Scene\02. SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeUI.cpp">
+      <Filter>02. GameObject\07. UI\03. ChangeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="NagaGuard.cpp">
+      <Filter>02. GameObject\10. NagaGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="RockWarrior.cpp">
+      <Filter>02. GameObject\11. RockWarrior</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeGuard.cpp">
+      <Filter>02. GameObject\12. TreeGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>02. GameObject\13. Mushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="Minidump.cpp">
+      <Filter>90. MiniDump</Filter>
+    </ClCompile>
+    <ClCompile Include="NumUI_Inst.cpp">
+      <Filter>02. GameObject\07. UI\04. NumUI</Filter>
+    </ClCompile>
+    <ClCompile Include="NumUI.cpp">
+      <Filter>02. GameObject\07. UI\04. NumUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectPlayer.cpp">
+      <Filter>02. GameObject\00. AnimObject\02. SeletePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>01. Scene\03. StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>01. Scene\04. EndingScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameResource.h">
+      <Filter>97. DirectHelper\00. FrameResource</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\DDSTextureLoader.h">
+      <Filter>97. DirectHelper\01. DDSTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GeometryGenerator.h">
+      <Filter>97. DirectHelper\02. GeometryGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\MathHelper.h">
+      <Filter>97. DirectHelper\02. MathHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dx12.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\UploadBuffer.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dUtil.h">
+      <Filter>97. DirectHelper\04. d3dUtil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Camera.h">
+      <Filter>02. GameObject\01. StaticObject\02. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrel.h">
+      <Filter>02. GameObject\01. StaticObject</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMesh.h">
+      <Filter>03. Mesh\00. DynamicMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>02. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>94. Manager\01. InputDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>03. Mesh\01. StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>03. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="InstancingAndCullingApp.h">
+      <Filter>00. App\00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="InstancingObject.h">
+      <Filter>02. GameObject\01. StaticObject\00. InstancingObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>02. GameObject\04. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryMesh.h">
+      <Filter>03. Mesh\02. GeometryMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>02. GameObject\03.Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Management.h">
+      <Filter>94. Manager\00. Management</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>92. Component\01. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>92. Component\02. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>92. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>01. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>01. Scene\99. Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>01. Scene\00. TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Manager.h">
+      <Filter>94. Manager\02. Component_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>02. GameObject\99. BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GameTimer.h">
+      <Filter>96. GameTimer\01. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer_Manager.h">
+      <Filter>96. GameTimer\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>95. Frame\01. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Manager.h">
+      <Filter>95. Frame\00. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Spider.h">
+      <Filter>02. GameObject\05. Spider</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMeshSingle.h">
+      <Filter>03. Mesh\03. DynamicMeshSingle</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>02. GameObject\06. Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02. GameObject\00. AnimObject\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>91. Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>02. GameObject\01. StaticObject\01. MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>02. GameObject\07. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMesh.h">
+      <Filter>03. Mesh\04. UIMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>94. Manager\03. Texture_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.h">
+      <Filter>02. GameObject\07. UI\01. HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticUI.h">
+      <Filter>02. GameObject\07. UI\02. StaticUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>02. GameObject\00. AnimObject\01. Skeleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>92. Component\03. Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardMesh.h">
+      <Filter>03. Mesh\05. BillboardMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectScene.h">
+      <Filter>01. Scene\01. EffectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>02. GameObject\08. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill_Billboard.h">
+      <Filter>02. GameObject\08. Skill\00. Skill_Billboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect_Manager.h">
+      <Filter>94. Manager\04. Effect_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>02. GameObject\09. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEffect.h">
+      <Filter>02. GameObject\09. Effect\00. SkillEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedNew.h" />
+    <ClInclude Include="BinaryReader.h" />
+    <ClInclude Include="dds.h" />
+    <ClInclude Include="DescriptorHeap.h" />
+    <ClInclude Include="DirectXHelpers.h" />
+    <ClInclude Include="GraphicsMemory.h" />
+    <ClInclude Include="LinearAllocator.h" />
+    <ClInclude Include="LoaderHelpers.h" />
+    <ClInclude Include="PlatformHelpers.h" />
+    <ClInclude Include="RenderTargetState.h" />
+    <ClInclude Include="ResourceUploadBatch.h" />
+    <ClInclude Include="SharedResourcePool.h" />
+    <ClInclude Include="SpriteBatch.h" />
+    <ClInclude Include="SpriteFont.h" />
+    <ClInclude Include="VertexTypes.h" />
+    <ClInclude Include="SelectScene.h">
+      <Filter>01. Scene\02. SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeUI.h">
+      <Filter>02. GameObject\07. UI\03. ChangeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NagaGuard.h">
+      <Filter>02. GameObject\10. NagaGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="RockWarrior.h">
+      <Filter>02. GameObject\11. RockWarrior</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeGuard.h">
+      <Filter>02. GameObject\12. TreeGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>02. GameObject\13. Mushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="Minidump.h">
+      <Filter>90. MiniDump</Filter>
+    </ClInclude>
+    <ClInclude Include="NumUI_Inst.h">
+      <Filter>02. GameObject\07. UI\04. NumUI</Filter>
+    </ClInclude>
+    <ClInclude Include="NumUI.h">
+      <Filter>02. GameObject\07. UI\04. NumUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectPlayer.h">
+      <Filter>02. GameObject\00. AnimObject\02. SeletePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>01. Scene\03. StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>01. Scene\04. EndingScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dApp.h">
+      <Filter>00. App</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>98. Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\Common.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+    <None Include="Shaders\LightingUtil.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+    <None Include="Shaders\Sky.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+    <None Include="Shaders\Instancing.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+    <None Include="Shaders\Default.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+    <None Include="Base.inl">
+      <Filter>Base</Filter>
+    </None>
+    <None Include="Shaders\UI.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+    <None Include="myfile.spritefont" />
+    <None Include="Shaders\Effect.hlsl">
+      <Filter>93. Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

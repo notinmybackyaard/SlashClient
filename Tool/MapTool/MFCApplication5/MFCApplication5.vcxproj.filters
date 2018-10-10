@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{f519f9c4-8ba3-4bde-a35b-3369871df2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Dialog">
+      <UniqueIdentifier>{0dc0fa32-ca50-426f-8fd2-04e9e70ff2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Main">
+      <UniqueIdentifier>{504f11b0-f8fc-406e-a0a3-295b9c4a4b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Main\00. App">
+      <UniqueIdentifier>{6b754459-b4b1-423a-a479-39074b0d0bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Main\01. Form">
+      <UniqueIdentifier>{819a1857-d4b0-40e3-9333-1aaeee3d0316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Main\02. Frame">
+      <UniqueIdentifier>{a11804ed-fa49-4cdd-89ea-fab3b63a7a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Main\03. View">
+      <UniqueIdentifier>{d25957e2-d7a2-4c2d-a0dc-adcfecca6ebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Dialog\00. MapTool">
+      <UniqueIdentifier>{fedae913-4f47-490c-afa6-f7bb8e0c0fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. App">
+      <UniqueIdentifier>{cd6d8f36-3e5e-46b9-a1ef-bb22bb9a89d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DXDefault">
+      <UniqueIdentifier>{f68c74d5-007c-4d16-b952-2bb92c3869fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component">
+      <UniqueIdentifier>{bdab97c6-0f8b-41fb-acb0-aee88d88fdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\00. Transform">
+      <UniqueIdentifier>{83541157-779c-41d4-bfd7-4085f5373c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\02. Mesh">
+      <UniqueIdentifier>{d37339f2-f417-48af-b063-ff9ad50573dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\02. Mesh\00. StaticMesh">
+      <UniqueIdentifier>{9ff83ca0-a964-4509-bc20-e696931bf182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97. DXDefault\Header">
+      <UniqueIdentifier>{8880365d-8f49-4c6d-9b16-cfca1bcf4e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\02. Mesh\01. GeometryMesh">
+      <UniqueIdentifier>{7112e5f9-c99a-4622-9f0e-28aece2921c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\03. Camera">
+      <UniqueIdentifier>{825229db-dc40-436a-8cb8-71aab25895dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject">
+      <UniqueIdentifier>{13b4b61b-114b-4862-a201-47dc3cab55c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\00. MapObject">
+      <UniqueIdentifier>{2d741405-65bc-4f75-9844-3c9a8b1acf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\99. Manager">
+      <UniqueIdentifier>{4047703d-2dec-4e2a-9ed4-b9f73fc62542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\01. Renderer">
+      <UniqueIdentifier>{0af91fee-a65b-4f3a-9784-2e97381c341f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. App\00. MainApp">
+      <UniqueIdentifier>{2f79400b-10bc-4a83-b67b-0def00136e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Timer">
+      <UniqueIdentifier>{b9c523b4-44c7-4483-9f02-4d45028036e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Frame">
+      <UniqueIdentifier>{3b1f6677-f9b1-4f22-8bf6-5d4b73f08cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Timer\00. Timer">
+      <UniqueIdentifier>{b6b912b8-5d47-4a3d-8b14-444daf5ce864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="94. Timer\99. Manager">
+      <UniqueIdentifier>{4ae206bf-b7c4-4050-857e-da452a0ce0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Frame\00. Frame">
+      <UniqueIdentifier>{71e06497-a34d-4f16-912e-7104e0f81702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="93. Frame\99. Manager">
+      <UniqueIdentifier>{5a6a94c1-18ba-4688-93dc-ade2c1cf6abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\01. Terrain">
+      <UniqueIdentifier>{e74a18c1-9434-4a7f-805b-6e128197c138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\02. SkyBox">
+      <UniqueIdentifier>{9581357e-1afa-4c3c-8b67-9ded6c2362fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="92. Shader">
+      <UniqueIdentifier>{b458599e-76d8-4d61-acb8-720d2dbfd128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\03. Skill">
+      <UniqueIdentifier>{8ab7f43c-989c-4fa4-b2cc-80a620334d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Manager">
+      <UniqueIdentifier>{d1bd6cf4-be62-42cc-8a6a-11368868298d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Manager\00. ObjectManager">
+      <UniqueIdentifier>{8fb4d17e-bbae-4f53-8a72-7fb8106d082b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95. Manager\01. InputDevice">
+      <UniqueIdentifier>{72ad9a47-3bef-4b78-88af-530e517d147f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\99. Manager\01. Texture_Manager">
+      <UniqueIdentifier>{706bda7f-2a77-4353-a456-04993094a412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Dialog\01. EffectTool">
+      <UniqueIdentifier>{62215414-65b0-44ff-baf1-1e3476c504da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Dialog\99. View">
+      <UniqueIdentifier>{2b49c894-5022-42cd-9dcb-c0f50144b92a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\99. Basic">
+      <UniqueIdentifier>{bff0a0c7-f7d8-4e31-a362-1c1f5324ff3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\04. Effect">
+      <UniqueIdentifier>{65ce4715-9008-4dbc-87fd-349df28e8c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\03. Skill\00.SkillEffect">
+      <UniqueIdentifier>{abaf5dd8-6f80-4c53-9bcc-2d126dcdbac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96. Component\02. Mesh\02. DynamicMesh">
+      <UniqueIdentifier>{c7c57aa9-99f7-4b2d-9252-1f03ae53749a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. GameObject\05. Player">
+      <UniqueIdentifier>{6e6f7fb7-5e8e-4724-a024-f5c0fbf8d245}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>98. Main\02. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication5View.h">
+      <Filter>98. Main\03. View</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication5.h">
+      <Filter>98. Main\00. App</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication5Doc.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm.h">
+      <Filter>98. Main\01. Form</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>00. Dialog\00. MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="View_0.h">
+      <Filter>00. Dialog\99. View</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dApp.h">
+      <Filter>00. App</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>97. DXDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>97. DXDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>97. DXDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadBuffer.h">
+      <Filter>97. DXDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMesh.h">
+      <Filter>96. Component\02. Mesh\00. StaticMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>96. Component\02. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>96. Component\00. Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>96. Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>97. DXDefault\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>97. DXDefault\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>97. DXDefault\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>97. DXDefault\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameResource.h">
+      <Filter>97. DXDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>97. DXDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryMesh.h">
+      <Filter>96. Component\02. Mesh\01. GeometryMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>96. Component\03. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>95. Manager\01. InputDevice</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>01. GameObject\00. MapObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>01. GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>96. Component\01. Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>95. Manager\00. ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxApp.h">
+      <Filter>00. App\00. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>93. Frame\00. Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame_Manager.h">
+      <Filter>93. Frame\99. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer_Manager.h">
+      <Filter>94. Timer\99. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>94. Timer\00. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>01. GameObject\01. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Manager.h">
+      <Filter>96. Component\99. Manager\01. Texture_Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>01. GameObject\02. SkyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill_Billboard.h">
+      <Filter>01. GameObject\03. Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Component_Manager.h">
+      <Filter>96. Component\99. Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectTool.h">
+      <Filter>00. Dialog\01. EffectTool</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLine.h">
+      <Filter>01. GameObject\99. Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01. GameObject\04. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEffect.h">
+      <Filter>01. GameObject\03. Skill\00.SkillEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicMesh.h">
+      <Filter>96. Component\02. Mesh\02. DynamicMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. GameObject\05. Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>98. Main\02. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication5View.cpp">
+      <Filter>98. Main\03. View</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication5.cpp">
+      <Filter>98. Main\00. App</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication5Doc.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>98. Main\01. Form</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>00. Dialog\00. MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="View_0.cpp">
+      <Filter>00. Dialog\99. View</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>00. App</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>97. DXDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>97. DXDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMesh.cpp">
+      <Filter>96. Component\02. Mesh\00. StaticMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>96. Component\02. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>96. Component\00. Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>96. Component</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameResource.cpp">
+      <Filter>97. DXDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>97. DXDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryMesh.cpp">
+      <Filter>96. Component\02. Mesh\01. GeometryMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>96. Component\03. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>95. Manager\01. InputDevice</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>01. GameObject\00. MapObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>01. GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>96. Component\01. Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>95. Manager\00. ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxApp.cpp">
+      <Filter>00. App\00. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>93. Frame\00. Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame_Manager.cpp">
+      <Filter>93. Frame\99. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer_Manager.cpp">
+      <Filter>94. Timer\99. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>94. Timer\00. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>01. GameObject\01. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Manager.cpp">
+      <Filter>96. Component\99. Manager\01. Texture_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>01. GameObject\02. SkyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill_Billboard.cpp">
+      <Filter>01. GameObject\03. Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Component_Manager.cpp">
+      <Filter>96. Component\99. Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectTool.cpp">
+      <Filter>00. Dialog\01. EffectTool</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicLine.cpp">
+      <Filter>01. GameObject\99. Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01. GameObject\04. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEffect.cpp">
+      <Filter>01. GameObject\03. Skill\00.SkillEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicMesh.cpp">
+      <Filter>96. Component\02. Mesh\02. DynamicMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. GameObject\05. Player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="UserImages.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\MFCApplication5.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\MFCApplication5Doc.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication5.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication5.rc2">
+      <Filter>99. Default</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Shaders\Common.hlsl">
+      <Filter>92. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Default.hlsl">
+      <Filter>92. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\color.hlsl">
+      <Filter>92. Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Shaders\Effect.hlsl">
+      <Filter>92. Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
